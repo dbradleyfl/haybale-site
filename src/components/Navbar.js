@@ -8,24 +8,11 @@ export default class Navbar extends Component {
 
     render() {
         return (
-            <nav className="nav">
+            <nav id="home" className="nav">
                 <div className="container">
                     <div className="nav-left">
                         <a className="nav-item">
                             <h3 className="title is-3">Haybale</h3>
-                        </a>
-                    </div>
-
-                    <div className="nav-center">
-                        <a className="nav-item">
-                            <span className="icon">
-                                <i className="fa fa-github"></i>
-                            </span>
-                        </a>
-                        <a className="nav-item">
-                            <span className="icon">
-                                <i className="fa fa-twitter"></i>
-                            </span>
                         </a>
                     </div>
 
@@ -36,24 +23,15 @@ export default class Navbar extends Component {
                     </span>
 
                     <div className="nav-right nav-menu">
-                        <a className="nav-item">
+                        <a className="nav-item" href="#home">
                             Home
                         </a>
-                        <a className="nav-item">
-                            Documentation
-                        </a>
-                        <a className="nav-item">
-                            Blog
+                        <a className="nav-item" href="#features-section">
+                            Features
                         </a>
 
                         <span className="nav-item">
-                            <a className="button">
-                                <span className="icon">
-                                    <i className="fa fa-twitter"></i>
-                                </span>
-                                <span>Tweet</span>
-                            </a>
-                            <a className="button is-primary">
+                            <a className="button is-primary" href="#download-section">
                                 <span className="icon">
                                     <i className="fa fa-download"></i>
                                 </span>
