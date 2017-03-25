@@ -3,15 +3,34 @@ import React, {Component} from 'react';
 export default class DownloadSection extends Component {
     render() {
         return (
-          <section id="download-section" className="section is-medium">
-            <div className="container">
-              <div className="heading">
-                <h1 className="title">Download</h1>
-                <h2 className="subtitle">
-                  Links To Download Here.
-                </h2>
+          <section id="download-section" className="section has-text-centered">
+              <h2 className="title is-3">Download</h2>
+              <div className="columns">
+                <div className="column is-2 has-text-centered is-offset-2">
+                  <a className="button is-danger is-large">
+                    <span className="icon is-medium">
+                      <i className="fa fa-windows"></i>
+                    </span>
+                    <span>Windows</span>
+                  </a>
+                </div>
+                <div className="column is-2 is-offset-1 has-text-centered">
+                  <a className="button is-info is-large">
+                    <span className="icon is-medium">
+                      <i className="fa fa-apple"></i>
+                    </span>
+                    <span>Mac</span>
+                  </a>
+                </div>
+                <div className="column is-2 is-offset-1 has-text-centered">
+                  <a className="button is-large is-success">
+                    <span className="icon is-medium">
+                      <i className="fa fa-linux"></i>
+                    </span>
+                    <span>Linux</span>
+                  </a>
+                </div>
               </div>
-            </div>
           </section>
         )
     }

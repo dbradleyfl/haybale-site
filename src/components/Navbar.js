@@ -8,8 +8,8 @@ export default class Navbar extends Component {
 
     render() {
         return (
-            <nav id="home" className="nav">
-                <div className="container">
+            <nav id="home" className="nav" style={{backgroundColor: "white"}}>
+                <div className="container is-light">
                     <div className="nav-left">
                         <a className="nav-item">
                             <h3 className="title is-3">Haybale</h3>
@@ -31,7 +31,7 @@ export default class Navbar extends Component {
                         </a>
 
                         <span className="nav-item">
-                            <a className="button is-primary" href="#download-section">
+                            <a className="button is-warning" href="#download-section" style={{color: "white"}}>
                                 <span className="icon">
                                     <i className="fa fa-download"></i>
                                 </span>
