@@ -7,7 +7,7 @@ export default class DownloadSection extends Component {
               <h2 className="title is-3">Download</h2>
               <div className="columns">
                 <div className="column is-2 has-text-centered is-offset-2">
-                  <a className="button is-danger is-large">
+                  <a href="https://github.com/dbradleyfl/haybale-site/releases" className="button is-danger is-large" target="_blank">
                     <span className="icon is-medium">
                       <i className="fa fa-windows"></i>
                     </span>
@@ -15,7 +15,7 @@ export default class DownloadSection extends Component {
                   </a>
                 </div>
                 <div className="column is-2 is-offset-1 has-text-centered">
-                  <a className="button is-info is-large">
+                  <a href="https://github.com/dbradleyfl/haybale-site/releases" className="button is-info is-large" target="_blank">
                     <span className="icon is-medium">
                       <i className="fa fa-apple"></i>
                     </span>
@@ -23,7 +23,7 @@ export default class DownloadSection extends Component {
                   </a>
                 </div>
                 <div className="column is-2 is-offset-1 has-text-centered">
-                  <a className="button is-large is-success">
+                  <a href="https://github.com/dbradleyfl/haybale-site/releases" className="button is-large is-success" target="_blank">
                     <span className="icon is-medium">
                       <i className="fa fa-linux"></i>
                     </span>

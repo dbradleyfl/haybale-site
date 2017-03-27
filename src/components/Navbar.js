@@ -31,7 +31,7 @@ export default class Navbar extends Component {
                         </a>
 
                         <span className="nav-item">
-                            <a className="button is-warning" href="#download-section" style={{color: "white"}}>
+                            <a className="button is-warning" href="https://github.com/dbradleyfl/haybale-site/releases" style={{color: "white"}} target="_blank">
                                 <span className="icon">
                                     <i className="fa fa-download"></i>
                                 </span>
